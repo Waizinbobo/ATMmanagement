@@ -30,9 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtAccNo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtPin = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -63,13 +63,13 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Account No.";
             // 
-            // textBox1
+            // txtAccNo
             // 
-            this.textBox1.Location = new System.Drawing.Point(429, 176);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(231, 26);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            this.txtAccNo.Location = new System.Drawing.Point(429, 176);
+            this.txtAccNo.Name = "txtAccNo";
+            this.txtAccNo.Size = new System.Drawing.Size(231, 26);
+            this.txtAccNo.TabIndex = 2;
+            this.txtAccNo.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // label3
             // 
@@ -82,12 +82,12 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Enter PIN :";
             // 
-            // textBox2
+            // txtPin
             // 
-            this.textBox2.Location = new System.Drawing.Point(429, 291);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(231, 26);
-            this.textBox2.TabIndex = 4;
+            this.txtPin.Location = new System.Drawing.Point(429, 291);
+            this.txtPin.Name = "txtPin";
+            this.txtPin.Size = new System.Drawing.Size(231, 26);
+            this.txtPin.TabIndex = 4;
             // 
             // btnLogin
             // 
@@ -145,9 +145,9 @@
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtPin);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtAccNo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Login";
@@ -163,9 +163,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAccNo;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtPin;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.LinkLabel linkLabel1;
